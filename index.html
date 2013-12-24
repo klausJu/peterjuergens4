@@ -2,26 +2,27 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
 <head>
-<link rel="stylesheet" href="stylesheet.css" type="text/css" />
-<title>Suchformular</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="NewFile.css" type="text/css" />
+<title>Suchformular</title>
 </head>
-<body>
-<h1>Suche in der  Wikipedia </h1>
 
-	
-<div> <img class = "Bild" src="wiki3.png" alt="Schönes Bild zu Wikipedia" /></div>
-							
+	<body>
+	<h1>Suchformular </h1>	
+<div> <img class = "Bild" src="wiki3.png" alt="Schönes Bild zu Wikipedia" /></div>	
+		
 <div>
-<form action="http://de.wikipedia.org/wiki/Spezial:Suche" style="text-align: center; color: silver; background-color: white">
-   <fieldset style="background-color: #fcfeb1">
-      <legend> Suchen </legend>
-      <input type="text"   name="search" value="" />
-      <input type="submit" name="go" value="Artikel"/>
-      <input type="submit" name="fulltext" value="Volltext" />
+<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+   <fieldset>
+   	<h1>Artikel auf Wikipedia suchen</h1>
+      <label for="suchen" style="text-align: center">Bitte Suchbegriff eingeben:</label>
+      <input class="textfeld" name="search" id="suchen" type="text"/>
+      <input name="go" value="Wikipedia-Artikel anzeigen" type="submit" style="font-weight: bold"/>
+      <input name="fulltext" value="Wikipedia-Stichwortliste anzeigen" type="submit" style="font-weight: bold"/>
    </fieldset>
-</form>
-</div>
+</form>  
+	</div>
+
 <div>
 <p>
 <a href="http://wave.webaim.org/report#/peterjuergens4.cloudcontrolled.com" title="Suchformular"> <img height="32" width="88" src="http://www.w3.org/WAI/wcag2AAA" alt="Level Triple-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0"/> </a>
@@ -45,6 +46,7 @@
     </a>
 </p>
 </div>
+
 
 </body>
 </html>
