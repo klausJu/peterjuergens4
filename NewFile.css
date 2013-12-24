@@ -1,11 +1,7 @@
-@CHARSET "utf8";
 body { 
   font: 100% Arial, Helvetica, sans-serif;
   background-color: #FFBF00;;
   color: #010101;
-}
-#header{
-	dispaly:block;
 }
 
 form {
